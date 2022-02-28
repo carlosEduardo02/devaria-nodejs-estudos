@@ -10,7 +10,7 @@ console .log('Além da suas verificações, precisamos verificar se você está 
 readLine.question('Qual o ano do seu nascimento?', ano => {
     if(ano > 2004){
         console .log('Você não tem 18 anos');
-    }else{
+    }else{  
         readLine.question("Você tem habilitação? (Sim/Não) ", temHabilitação =>{
             if(!(temHabilitação.toUpperCase() === "SIM")){
             console .log('Você não tem habilitação para entrar no Kart');
